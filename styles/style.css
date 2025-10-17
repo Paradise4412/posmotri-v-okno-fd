@@ -144,7 +144,7 @@ ol {
 	font-size: 30px;
 	font-weight: 700;	
 	font-family: 'Oswald', sans-serif;
-	margin-bottom: 6px;
+  gap: 6px;
 	line-height: 1;
 	text-transform: uppercase;
 	overflow: hidden;
@@ -197,9 +197,11 @@ ol {
 	border-right: none;
 	border-left: none;
 	border-bottom: solid 1px #fff;
-	padding: 5px 0;
 	background-color: #1b1919;
 	appearance: none;
+  font-weight: 400;
+  font-size: 18px;
+	font-family: 'Fira Sans Condensed', sans-serif;
 }
 .search-form__textfield::placeholder {
 	font-size: 18px;
